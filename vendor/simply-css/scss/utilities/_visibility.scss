@@ -1,0 +1,14 @@
+// Visibility utilities
+.hidden {
+  display: none;
+}
+.hidden-md-down {
+  @media (max-width: $md-and-down) {
+    display: none;
+  }
+}
+.hidden-lg-up {
+  @media (min-width: $lg-and-up) {
+    display: none;
+  }
+}

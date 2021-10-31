@@ -1,0 +1,54 @@
+// Font size variables
+
+// Breakpoint varibles that are used for "min-width" cases 
+$xl-and-up: 1200px;
+$lg-and-up: 1024px;
+$md-and-up: 640px;
+$sm-and-up: 320px;
+
+// Breakpoint varibles that are used for "max-width" cases 
+$xl-and-down: 1599px;
+$lg-and-down: 1199px;
+$md-and-down: 1023px;
+$sm-and-down: 639px;
+$xs-and-down: 319px;
+
+$html-font-size-xl: 18px;
+$html-font-size-lg: 16px;
+$html-font-size-md: 15px;
+$html-font-size-sm: 14px;
+$html-font-size-xs: 13px;
+
+$paragraph-font-size-xl: 22px;
+$paragraph-font-size-lg: 20px;
+$paragraph-font-size-md: 18px;
+$paragraph-font-size-sm: 16px;
+$paragraph-font-size-xs: 14px;
+
+$h1: 3em;
+$h2: 2.6em;
+$h3: 2.2em;
+$h4: 1.8em;
+$h5: 1.4em;
+$h6: 1em;
+
+// Colors variables
+$black: #000;
+$black-100: #121111;
+$black-200: #1a1919;
+$red: #d34836;
+$maroon: #660808;
+$maroon-dark: #291b1b;
+$grey: #656668;
+$dark-grey: #3e3838;
+$light-grey: #747788;
+$green: #00ab3e;
+$green-juicy: #549500;
+$orange: #d2691e;
+$yellow: #fdc244;
+$white: #fff;
+$light-blue: #7d92bb;
+$blue: #262a3e;
+$blue-100: #747788;
+$dark-blue: #1c1e29;
+$dark-blue-100: #272934;

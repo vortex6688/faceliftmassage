@@ -1,0 +1,97 @@
+/* Custom Css Styles Go here */
+
+// @font-face {
+//   font-family: "scriptina-pro";
+//   src: url("../fonts/Scriptina_Pro-webfont.woff") format("woff")
+// }
+
+
+body {
+  color: #545050;
+}
+
+.sticky-top {
+  background: $dark-blue-100;
+  position: fixed;
+  height: 4em;
+}
+
+nav a {
+  color: #888888;
+  &:hover{
+    color: #000;
+    transition: 0.5s;
+    text-decoration: underline;
+  }
+}
+
+header {
+  background: $white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.slogan,
+.introduction {
+  line-height: 50px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  p {
+    color: $light-grey;
+  }
+}
+
+.illustration {
+  max-width: 20em;
+}
+
+.get-started {
+  border: 1px $black solid;
+  &:hover{
+    color: $orange;
+    transition: 0.5s;
+    border: 1px $orange solid;
+  }
+}
+
+.logo {
+  height: 1.8em;
+  &.small {
+    height: 1em;
+  }
+}
+
+.icon {
+  height: 3.6em;
+}
+
+footer {
+  background: $dark-blue-100;
+  p {
+    color: $blue-100;
+    font-size: $paragraph-font-size-xs;
+  }
+  h5 {
+    padding: 0 0 0.5em;
+  }
+}
+
+.media { 
+  * {
+    padding-right: 0.25em;
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+}
+
+hr {
+  height: 0.025em;
+  color:$blue-100;
+  background: $blue-100;
+}

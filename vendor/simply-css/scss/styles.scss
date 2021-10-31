@@ -1,0 +1,51 @@
+// Simply CSS by Vortex
+// v 1.0
+/********
+  Please Do Not Override Any Styles In the documents that belong to Simply-css,
+  place this CSS library in a separate folder ("vendor" for instance) and load first the desired
+  parts of the Simply-css, and after that you may load your custom styles to overwrite any of the Simply-css styles,
+  this way it will help to keep your project organize and avoid any confusion.
+  Here is an example of including the style documents:
+  ````````````````````````
+  <link rel="stylesheet" href="vendor/simply-css/css/styles.css">
+  <link rel="stylesheet" href="custom-styles/css/styles.css">
+  ````````````````````````
+  This lines of code should be located inside <head> tag and of course path of 
+  the documents should match their actual location.
+********/
+
+@import "reset";
+@import "variables";
+@import "base";
+@import "components/button";
+@import "components/form";
+@import "components/headings";
+@import "components/list-styling";
+@import "components/navigation";
+@import "utilities/utilities";
+
+body {
+  // Dark theme is the default theme
+  // Default background Dark Grey color (or $black-200)
+  &.dark-theme {
+    background: $black-200;
+    color: $white;
+  }
+
+  &.light-theme {
+    background: $white;
+    color: $black;
+  }
+
+  &.white-font {
+    color: $white;
+  }
+}
+
+// Break points:
+
+// xl(extra large) 1200px - 1600px and up
+// lg(large) 1024px - 1199px
+// md(medium) 640px - 1023px
+// sm(small) 320px - 639px
+// xs(extra small) 0 - 320px 

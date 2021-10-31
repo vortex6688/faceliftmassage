@@ -1,0 +1,111 @@
+// Default/base styling for the text elements
+
+html {
+  font-size: $html-font-size-xl;
+  line-height: 23px;
+  font-family: 'PT Sans', sans-serif;
+  letter-spacing: 0.025em;
+  
+  @media (max-width: 1024px) {
+      font-size: $html-font-size-lg;
+  }
+  
+  @media (max-width: 640px) {
+      font-size: $html-font-size-md;
+  }
+  
+  @media (max-width: 480px) {
+      font-size: $html-font-size-sm;
+  }
+}
+
+p {
+  font-size: $paragraph-font-size-lg;
+  
+  @media (max-width: 1024px) {
+      font-size: $paragraph-font-size-md;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  line-height: 28px;
+}
+
+h4, h5, h6 {
+  @media (min-width: 769px) {
+    font-weight: 100;
+  }
+}
+
+h1, .h1 {
+  font-size: $h1;
+  padding: 0.5em 0.25em 0.75em;
+
+  @media (max-width: 1024px) {
+    font-size: $h1 * 0.9;
+  }
+
+  @media (max-width: 640px) {
+    font-size: $h1 * 0.75;
+  }
+}
+
+h2, .h2 {
+  font-size: $h2;
+  padding: 0.5em 0.25em;
+
+  @media (max-width: 1024px) {
+    font-size: $h2 * 0.9;
+  }
+
+  @media (max-width: 640px) {
+    font-size: $h2 * 0.75;
+  }
+}
+
+h3, .h3 {
+  font-size: $h3;
+  padding: 0.5em 0.25em;
+
+  @media (max-width: 1024px) {
+    font-size: $h3 * 0.9;
+  }
+
+  @media (max-width: 640px) {
+    font-size: $h3 * 0.75;
+  }
+}
+
+h4, .h4 {
+  font-size: $h4;
+  padding: 0.5em 0.25em;
+
+  @media (max-width: 1024px) {
+    font-size: $h4 * 0.9;
+  }
+
+  @media (max-width: 640px) {
+    font-size: $h4 * 0.75;
+  }
+}
+
+h5, .h5 {
+  font-size: $h5;
+  padding: 0.25em;
+}
+
+h6, .h6 {
+  font-size: $h6;
+  padding: 0.125em;
+}
+
+// HR
+hr {
+  border: 0;
+  height: 0.075em;
+  background: #fff;
+}

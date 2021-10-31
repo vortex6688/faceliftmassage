@@ -1,0 +1,42 @@
+// Buttons
+
+.button {
+  padding: 0.25em 0.75em;
+  border: none;
+  white-space: nowrap;
+  cursor: pointer;
+
+  &.round {
+    border-radius: 0.375em;
+  }
+
+  &.success {
+    background: $green-juicy;
+
+    &:hover {
+      background: darken(#198b56, 15%);
+    }
+  }
+
+  &.danger {
+    background: $red;
+
+    &:hover {
+      background: darken($red, 15%);
+    }
+  }
+
+  &.orange {
+    background: #f1a503;
+
+    &:hover {
+      background: lighten(#f1a503, 15%);
+    }
+  }
+
+  @media (max-width: 640px) {
+    h1, h2, h3, h4, h5, h6 {
+      padding: 0;
+    }
+  }
+}

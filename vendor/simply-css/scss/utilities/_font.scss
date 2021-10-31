@@ -1,0 +1,108 @@
+// Text / Font Utilities
+  
+  // Text positioning, transform, etc...
+  .center {
+    text-align: center;
+  }
+  .left {
+    text-align: left;
+  }
+  .uppercase {
+    text-transform: uppercase;
+  }
+  .capitalize {
+    text-transform: capitalize;
+  }
+
+  // Text variations
+
+  .cursive {
+    font-family: cursive;
+  }
+
+  @media (min-width: $lg-and-up) {
+    .sans-serif-lg-up {
+      font-family: sans-serif;
+    }
+  }
+  @media (max-width: $md-and-down) {
+    .sans-serif-md {
+      font-family: sans-serif;
+    }
+  }
+
+  @media (min-width: $lg-and-up) {
+    .cursive-lg-up {
+      font-family: cursive;
+    }
+  }
+  @media (max-width: $md-and-down) {
+    .cursive-md-down {
+      font-family: cursive;
+    }
+  }
+
+  // Text Colors
+  .c-black {
+    color: $black;
+  }
+  .c-white {
+    color: $white;
+  }
+  // .c-success class sets a darker green color on the chosen text elements
+  .c-success {
+    color: $green;
+  }
+  // .c-green class sets a juicy green color on the chosen text elements
+  .c-green {
+    color: $green-juicy;
+  }
+  .c-red {
+    color: $red;
+  }
+  .c-orange {
+    color: $orange;
+  }
+  .c-yellow {
+    color: $yellow;
+  }
+  .c-light-blue {
+    color: $light-blue;
+  }
+
+  // Font Weight 
+  .bold {
+    font-weight: 700;
+  }
+  .normal {
+    font-weight: 400;
+  }
+  .skinny {
+    font-weight: 100;
+  }
+
+  // Text Decoration
+  .underline {
+    text-decoration: underline;
+  }
+
+  .underline-hover {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .highlighted {
+    color: $orange;
+  }
+
+  // Font Size (forced)
+  /* This type of utility will force a certain text element to have a specified 
+     size only, regardless of the screen size, this element will not scale!
+  */
+  .font-md {
+    font-size: $paragraph-font-size-md;
+  }
+  .font-xs {
+    font-size: $paragraph-font-size-xs;
+  }
